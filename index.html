@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Page Scrollable Container</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+	 .header {
+            width: 100%;
+            text-align: center;
+            padding: 15px;
+            background-color: #333;
+            color: white;
+            font-size: 24px;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+
+        .full-page-container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+padding-top:20px;
+            justify-content: center;
+            align-items: center;
+            background-color: #f4f4f4;
+        }
+
+        .scrollable-content {
+            width: 90%;
+            height: 90%;
+            overflow-y: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+	.scrollable-content {
+		scrollbar-width: none; /* Hides scrollbar in Firefox */
+		-ms-overflow-style: none; /* Hides scrollbar in IE/Edge */
+	}
+
+	.scrollable-content::-webkit-scrollbar {
+    		display: none; /* Hides scrollbar in Chrome, Safari */
+	}
+
+
+    </style>
+</head>
+<body>
+ <div class="header">
+        My Full Page Scrollable Section
+    </div>
+
+
+    <div class="full-page-container">
+        <div class="scrollable-content">
+            <h2>Scrollable Content</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (Repeat this text to test scrolling)</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (Repeat this text to test scrolling)</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (Repeat this text to test scrolling)</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (Repeat this text to test scrolling)</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (Repeat this text to test scrolling)</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (Repeat this text to test scrolling)</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (Repeat this text to test scrolling)</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (Repeat this text to test scrolling)</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (Repeat this text to test scrolling)</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (Repeat this text to test scrolling)</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (Repeat this text to test scrolling)</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (Repeat this text to test scrolling)</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (Repeat this text to test scrolling)</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (Repeat this text to test scrolling)</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (Repeat this text to test scrolling)</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (Repeat this text to test scrolling)</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (Repeat this text to test scrolling)</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (Repeat this text to test scrolling)</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (Repeat this text to test scrolling)</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (Repeat this text to test scrolling)</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (Repeat this text to test scrolling)</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (Repeat this text to test scrolling)</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (Repeat this text to test scrolling)</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (Repeat this text to test scrolling)</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (Repeat this text to test scrolling)</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (Repeat this text to test scrolling)</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (Repeat this text to test scrolling)</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (Repeat this text to test scrolling)</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (Repeat this text to test scrolling)</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (Repeat this text to test scrolling)</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (Repeat this text to test scrolling)</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (Repeat this text to test scrolling)</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (Repeat this text to test scrolling)</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (Repeat this text to test scrolling)</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (Repeat this text to test scrolling)</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (Repeat this text to test scrolling)</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (Repeat this text to test scrolling)</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (Repeat this text to test scrolling)</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ... (Repeat this text to test scrolling)</p>
+
+        </div>
+    </div>
+
+</body>
+</html>
